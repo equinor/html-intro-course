@@ -1,5 +1,5 @@
 {
-  "name":"html-intro-course",
+  "name": "html-intro-course",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
@@ -16,6 +16,6 @@
     "stylelint": "stylelint 'src/**/*.css'",
     "htmlhint": "htmlhint 'src/**/*.html'",
     "serve": "http-server -p 9000 'src'",
-    "watch": "browser-sync start --server 'src' --files 'src' --no-ui --no-open"
+    "watch": "browser-sync start --server 'src' --files 'src' --no-ui --no-open --port 9000"
   }
 }
